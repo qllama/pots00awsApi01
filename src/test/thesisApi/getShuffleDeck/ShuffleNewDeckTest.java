@@ -1,4 +1,4 @@
-package thesisApi.getShuffleDeck;
+package test.thesisApi.getShuffleDeck;
 
 import io.restassured.RestAssured;
 import org.junit.Assert;
@@ -66,7 +66,7 @@ public class ShuffleNewDeckTest {
     }
 
     @Test
-    public void shuffleExistingDeckTest(){
+    public void shuffleExistingDeckTest() {
         shuffleDeck(getNewDeck(), 1);
     }
 
